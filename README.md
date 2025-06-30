@@ -53,6 +53,7 @@ Sigue estos pasos para utilizar correctamente el archivo `Data_Cuentas.xlsm`:
 ### ⚠️ Consideraciones importantes
 - Para los cálculos con UVR se tuvo en cuenta el valor reportado por el Banco de la República para el 27-06-2025.
 - Los filtros generales del informe no afectan el gráfico de linea de tiempo. Este se desarrolló en una tabla independiente ya que requería recalcular la base mensual y por temas de tiempo no se hizo relación con la tabla principal.
+- Para el cálculo de las cuentas intactivas se toman 180 días después del la fecha del último movimiento. (Ya que no se indicaba en el documento, se toma de la web, donde indican que una cuenta de ahorros se considera inactiva si no tiene movimientos (depósitos o retiros) durante 180 días).
 
 
 ### 🧠 Descripción técnica
